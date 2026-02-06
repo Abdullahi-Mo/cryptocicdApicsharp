@@ -5,8 +5,7 @@ COPY . .
 RUN dotnet publish src/EncryptionApi/EncryptionApi.csproj -c Release -o /app/publish
 
 # Runtime stage
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
-WORKDIR /app
+FROM mcr.microsoft.com/dot
 COPY --from=build /app/publish .
 ENV ASPNETCORE_URLS=http://0.0.0.0:8080
 EXPOSE 8080
