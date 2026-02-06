@@ -7,10 +7,6 @@ builder.Services.ConfigureHttpJsonOptions(options =>
     options.SerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
 });
 
-var app = builder.Build();
-
-app.MapGet("/", () => Results.Ok(new { message = "Encryption API is running" }));
-
 // Encrypts text using a Caesar cipher with the provided shift (default = 3).
 app.MapPost("/encrypt", (CipherRequest request) =>
 {
