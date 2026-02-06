@@ -6,7 +6,7 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "crypto-cicd-api-csharp", "crypto-cicd-api-csharp", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{F104B280-3F13-41BF-B354-00336BC09034}"
-EndProject
+E
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{F588D514-FC24-4C7E-88D3-FDCB0FFCF08A}"
 	ProjectSection(SolutionItems) = preProject
 		ci.yml = ci.yml
